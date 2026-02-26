@@ -1,32 +1,4 @@
-// import 'package:flutter/material.dart';
-// import 'package:tast_app/model/model.dart';
 
-// class UserDetailScreen extends StatelessWidget {
-//   final UserModel user;
-
-//   UserDetailScreen({required this.user});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(title: Text(user.name, style: TextStyle(fontWeight: FontWeight.w400)),centerTitle: true,
-//         backgroundColor: Colors.blue[400],),
- 
-//       body: Padding(
-//         padding: EdgeInsets.all(16),
-//         child: Column(
-//           crossAxisAlignment: CrossAxisAlignment.start,
-//           children: [
-//             Text("Username: ${user.username}"),
-//             Text("Email: ${user.email}"),
-//             Text("Phone: ${user.phone}"),
-//             Text("Website: ${user.website}"),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
 import 'package:flutter/material.dart';
 import 'package:tast_app/model/model.dart';
 
